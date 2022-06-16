@@ -1,0 +1,20 @@
+<aura:component
+	implements="flexipage:availableForRecordHome,force:hasRecordId,lightning:availableForFlowScreens"
+	access="global"
+>
+
+	<!-- Design attributes -->
+	<aura:attribute name="cardLabel" type="String" access="global"></aura:attribute>
+	<aura:attribute name="modelId" type="String" access="global"></aura:attribute>
+	<aura:attribute name="fieldName" type="String" access="global"></aura:attribute>
+	<aura:attribute name="feedback" type="Boolean" default="false" access="global"></aura:attribute>
+	<aura:attribute name="saveToField" type="String" access="global"></aura:attribute>
+
+	<aura:attribute name="recordId" type="Id"></aura:attribute>
+
+	<div class="slds-box slds-theme_default">
+		This component has been replaced with a newer version.  Replace this component in your Lightning Page with the new <b>Einstein Platform - Language</b> component.
+	</div>
+
+
+</aura:component>

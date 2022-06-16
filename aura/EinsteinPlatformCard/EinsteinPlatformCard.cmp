@@ -1,0 +1,5 @@
+<!-- Foundational component that can be extended in the user's org for custom UI components -->
+<aura:component 
+    access="global">
+
+</aura:component>
